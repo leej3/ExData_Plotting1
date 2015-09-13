@@ -1,14 +1,15 @@
 plot3 <- function() {
 # Function plots the energy used over the course of two days as measured by
 # 3 different meters:
-#Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+  #Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
 #Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
 #Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
     
-# February 2007
+
+# Data of electricity consumption as reported in the UC Irvine power consumption dataset. 1st and 2nd of February 2007 were assessed
 #Data downloaded manually from :
 #https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-# on Sep 15th 2015
+# on at  Wed Sep 9th 17:23:38 2015
 
 # Load data: 
 library(data.table)

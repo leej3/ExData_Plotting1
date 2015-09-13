@@ -1,7 +1,11 @@
 plot1 <- function() {
+# Function plots a histogram of the global active power
+
+# Data of electricity consumption as reported in the UC Irvine power consumption dataset. 1st and 2nd of February 2007 were assessed
 #Data downloaded manually from :
 #https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-# on Sep 15th 2015
+# on at  Wed Sep 9th 17:23:38 2015
+
 # Load data: 
 library(data.table)
 house_power<- fread(input = "household_power_consumption.txt",

@@ -3,7 +3,7 @@ plot2 <- function() {
 # February 2007
 #Data downloaded manually from :
 #https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-# on Sep 15th 2015
+# on at  Wed Sep 9th 17:23:38 2015
 
 # Load data: 
 library(data.table)
